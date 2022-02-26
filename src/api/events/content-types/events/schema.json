@@ -1,9 +1,9 @@
 {
 	"kind": "collectionType",
-	"collectionName": "events",
+	"collectionName": "events1",
 	"info": {
-		"singularName": "event",
-		"pluralName": "events",
+		"singularName": "events",
+		"pluralName": "events1",
 		"displayName": "Events"
 	},
 	"options": {
