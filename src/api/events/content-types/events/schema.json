@@ -1,6 +1,6 @@
 {
 	"kind": "collectionType",
-	"collectionName": "event",
+	"collectionName": "events",
 	"info": {
 		"singularName": "event",
 		"pluralName": "events",
