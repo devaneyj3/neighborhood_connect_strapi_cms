@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- *  turn-event controller
+ *  signup controller
  */
 
 const { createCoreController } = require('@strapi/strapi').factories;
 
-module.exports = createCoreController('api::turn-event.turn-event');
+module.exports = createCoreController('api::signup.signup');

@@ -1,10 +1,11 @@
 {
   "kind": "collectionType",
-  "collectionName": "neighborhood_connect_events",
+  "collectionName": "events",
   "info": {
-    "singularName": "neighborhood-connect-event",
-    "pluralName": "neighborhood-connect-events",
-    "displayName": "neighborhood_connect_events"
+    "singularName": "event",
+    "pluralName": "events",
+    "displayName": "event",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -17,20 +18,28 @@
     "description": {
       "type": "text"
     },
-    "attendence": {
+    "date": {
+      "type": "datetime"
+    },
+    "attendance": {
       "type": "integer"
     },
+    "event": {
+      "type": "enumeration",
+      "enum": [
+        "turn",
+        "neighborhood_connect"
+      ]
+    },
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos"
-      ],
-      "type": "media",
-      "multiple": false
-    },
-    "date": {
-      "type": "datetime"
+      ]
     },
     "location": {
       "type": "string"
